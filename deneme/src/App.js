@@ -3,24 +3,18 @@ import User from './components/User';
 import './App.css'
 
 function App() {
-  let value = true;
+  const value = false;
 
 
-  
 
   return (
     <div className="App">
 
-      <User />
-      {
-        value ? <p>Hello World</p>
-          : null
-      }
-      {
-        "Learn React".toUpperCase()
-      }
       
-
+      {
+        value ? <User />
+        : console.log("False")
+      }
 
     </div>
   );
