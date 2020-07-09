@@ -1,7 +1,8 @@
 import React from 'react';
 import User from './components/User';
 import Test from './components/Test';
-
+import Navbar from './components/Navbar';
+import Props from './components/Props';
 import './App.css'
 
 function App() {
@@ -12,14 +13,25 @@ function App() {
   return (
     <div className="App">
 
-      
       {
-        value ? <User /> 
-        : console.log("False")
+        value ? <Navbar />
+          : console.log("False")
       }
+      <hr/><br/>
+
       {
-        value ? <Test /> 
-        : console.log("False")
+        value ? <Props />
+          : console.log("False")
+      }
+
+      {
+        value ? <User />
+          : console.log("False")
+      }
+
+      {
+        value ? <Test />
+          : console.log("False")
       }
 
     </div>
