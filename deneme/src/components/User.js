@@ -4,6 +4,7 @@ class User extends Component {
     render() {
         return (
             <div>
+            <h1>{this.props.name}</h1>
                 <h2 style={{ color: "blue" }}>1 Hello World</h2>
                 <p><b>Merhaba bu bir deneme yazısıdır</b>.</p>
                 <input id="inputBox"></input>

@@ -20,12 +20,12 @@ function App() {
       <input id="test"></input>
 
       {
-        value ? <Props title="Hello World" deneme="deneme" />
+        value ? <Props title="Hello World" deneme="deneme" name1="html" name2="css" name3="javascript" name4="boostrap" />
           : console.log("False")
       }
 
       {
-        value ? <User />
+        value ? <User name="Hakan Ünal" />
           : console.log("False")
       }
 

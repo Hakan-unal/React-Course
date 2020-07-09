@@ -6,10 +6,10 @@ const Props = (props) => {
             <h1>{props.title}</h1>
 
             <ul>
-                <li>Html</li>
-                <li>Css</li>
-                <li>JavaScript</li>
-                <li>Boostrap</li>
+                <li>{props.name1}</li>
+                <li>{props.name2}</li>
+                <li>{props.name3}</li>
+                <li>{props.name4}</li>
                 <li>{props.deneme}</li>
             </ul>
 
