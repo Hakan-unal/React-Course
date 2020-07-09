@@ -9,7 +9,6 @@ function App() {
   const value = true;
 
 
-
   return (
     <div className="App">
 
@@ -17,10 +16,11 @@ function App() {
         value ? <Navbar />
           : console.log("False")
       }
-      <hr/><br/>
+      <hr /><br />
+      <input id="test"></input>
 
       {
-        value ? <Props />
+        value ? <Props title="Hello World" deneme="deneme" />
           : console.log("False")
       }
 
