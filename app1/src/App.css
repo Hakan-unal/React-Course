@@ -36,14 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-
-.deneme{
-  font-size: small;
-  background-color: #61dafb;
-  margin-left: 5px;
-}
-
-button:hover{
-  opacity: 0.8;
-}
