@@ -1,18 +1,17 @@
 import React from "react";
-import faker from "faker";
 
 
 const Comment = (props) => {
-
+    const { name, surname } = props;
 
     return (
         <div className="ui comments">
             <div className="comment">
                 <a className="avatar" href="/">
-                    <img alt="fotoğraf" src={faker.image.avatar()} />
+                    <img alt="fotoğraf" />
                 </a>
                 <div className="content">
-                    <a className="author" href="/">{props.name}</a>
+                    <a className="author" href="/">{name} {surname}</a>
                     <div className="metadata">
                         <div className="date">2 gün önce</div>
                         <div className="rating">

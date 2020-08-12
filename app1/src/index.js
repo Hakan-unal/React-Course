@@ -7,9 +7,9 @@ import Comment from "./component/comment";
 const App = () => {
     return (
         <div>
-            <Comment name="Hakan"/>
-            <Comment name="Ünal"/>
-            <Comment name="Hakan Ünal"/>
+            <Comment name="Test1" surname="Deneme1"/>
+            <Comment name="Test2" surname="Deneme2"/>
+            <Comment name="Test3" surname="Deneme3"/>
 
         </div>
     )
