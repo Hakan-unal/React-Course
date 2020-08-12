@@ -10,6 +10,8 @@ const App = () => {
             <Comment name="Test1" surname="Deneme1"/>
             <Comment name="Test2" surname="Deneme2"/>
             <Comment name="Test3" surname="Deneme3"/>
+            <Comment name="Test4" surname="Deneme4"/>
+
 
         </div>
     )
