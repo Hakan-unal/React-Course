@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Header from "./components/header";
-import Header2 from "./components/header";
+import Header2 from "./components/header2";
+import Location from "./components/location";
 
 
-const App = () => {
-  return (
-    <div>
-      <Header />
-      <Header2 />
-    </div>
-  )
+class App extends Component{
+  render() {
+    return (
+        <div>
+        <Header />
+        <Header2 />
+        <Location />
+        </div>
+    )
+}
 }
 
 
