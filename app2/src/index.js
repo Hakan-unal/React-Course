@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from "./components/header";
+import Header2 from "./components/header";
+
 
 const App = () => {
   return (
     <div>
       <Header />
+      <Header2 />
     </div>
   )
 }
